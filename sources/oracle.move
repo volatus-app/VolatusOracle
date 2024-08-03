@@ -1,7 +1,8 @@
-module volatus_oracle::volatus_oracle_interface{
+module volatus_oracle::oracle{
     use pyth::pyth;
     use pyth::price::Price;
     use pyth::price_identifier;
+    use aptos_framework::coin;
     use std::string::String;
 
 
